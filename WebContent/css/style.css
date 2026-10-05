@@ -1,0 +1,108 @@
+/* ---------- Global ---------- */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f4f6f9;
+}
+
+.login-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar {
+    min-height: 100vh;
+    width: 250px;
+    background: #1e293b;
+    color: #cbd5e1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    transition: all 0.3s;
+}
+
+.sidebar .brand {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #334155;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.sidebar .brand i {
+    color: #6366f1;
+    margin-right: 6px;
+}
+
+.sidebar a.nav-link {
+    color: #cbd5e1;
+    padding: 12px 20px;
+    display: block;
+    text-decoration: none;
+    border-left: 3px solid transparent;
+}
+
+.sidebar a.nav-link:hover,
+.sidebar a.nav-link.active {
+    background: #334155;
+    color: #fff;
+    border-left: 3px solid #6366f1;
+}
+
+.sidebar a.nav-link i {
+    margin-right: 10px;
+}
+
+/* ---------- Main content ---------- */
+.main-content {
+    margin-left: 250px;
+    padding: 20px 30px;
+}
+
+/* ---------- Topbar ---------- */
+.topbar {
+    background: #fff;
+    padding: 12px 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---------- Cards ---------- */
+.stat-card {
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.stat-card h3 { font-size: 1.8rem; font-weight: 700; margin: 0; }
+.stat-card p  { margin: 0; font-size: 0.9rem; opacity: 0.9; }
+
+.bg-gradient-blue   { background: linear-gradient(135deg,#4f46e5,#6366f1); }
+.bg-gradient-green  { background: linear-gradient(135deg,#059669,#10b981); }
+.bg-gradient-orange { background: linear-gradient(135deg,#ea580c,#f97316); }
+.bg-gradient-red    { background: linear-gradient(135deg,#dc2626,#ef4444); }
+
+/* ---------- Table ---------- */
+.table thead {
+    background: #f1f5f9;
+    font-weight: 600;
+    color: #334155;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.85rem;
+    margin-top: 40px;
+}
